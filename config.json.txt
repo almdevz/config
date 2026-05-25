@@ -1,0 +1,506 @@
+{
+  "Version": "1.0.7",
+  "ReleaseNotes": "ATUALIZAÇÃO DE SISTEMA\nATUALIZE PARA CONTINUAR UTILIZANDO O APLICATIVO",
+  "UrlUpdate": "https://bitbin.it/8acxpwsw/raw/",
+  "Sms": "https://bitbin.it/yo7JiuOM/raw/",
+  "LogoLink": "https://i.ibb.co/X8PHrL8/ic-launcher.png",
+  "BackgroundLink": "https://i.ibb.co/QQWFgYH/w535fwJ.jpg",
+
+  "OnlineApp": "http://app1.vpnnetwork.com.br:8888/server/online_app",
+
+  "AdsEnabled": true,
+  "AdsProvider": "admob",
+  "AdsFallback": "appodeal",
+  "AdmobAppId": "ca-app-pub-7450143251007211~2504644766",
+  "AdmobBanner": "ca-app-pub-7450143251007211/4534122634",
+  "AdmobInterstitial": "ca-app-pub-7450143251007211/1113752376",
+  "AdmobRewarded": "ca-app-pub-7450143251007211/1720805776",
+  "AppodealAppKey": "2212a62069ddc56b008c1bf9486f5999ae4f2a7284f05783",
+
+"Servers":
+[
+{
+"Name":"BRASIL 01",
+"FLAG":"br.png",
+"server_ip":"ssh.ethiodragon.sbs",
+",apphost_a":"ssh.ethiodragon.sbs",
+"apphost_b":"",
+"apphost_c":"",
+"apphost_d":"",
+"app_proxy":"",
+"udpport": "7300",
+"dns1": "1.1.1.1", 
+"dns2": "1.0.0.1",       
+"sshport":"80",
+"sslport":"443",
+"user":"penguintime",
+"pass":"8sJoFEdtFuH0"
+},
+{
+"Name":"BRASIL 02",
+"FLAG":"br.png",
+"server_ip":"45.229.22.81",
+"apphost_a":"ssh.ethiodragon.sbs",
+"apphost_b":"",
+"apphost_c":"",
+"apphost_d":"",
+"app_proxy":"",
+"udpport": "7300",
+"dns1": "1.1.1.1", 
+"dns2": "1.0.0.1",       
+"sshport":"80",
+"sslport":"444",
+"user":"penguintime",
+"pass":"8sJoFEdtFuH0"
+},
+{
+"Name":"CANADA 01",
+"FLAG":"ca.png",
+"server_ip":"179.96.3.100",
+"apphost_a":"03.vpnnetwork.com.br",
+"apphost_b":"03.vpnnetwork.com.br",
+"apphost_c":"03.vpnnetwork.com.br",
+"apphost_d":"03.vpnnetwork.com.br",
+"app_proxy":"",
+"udpport": "7300",
+"dns1": "1.1.1.1", 
+"dns2": "1.0.0.1",       
+"sshport":"80",
+"sslport":"444",
+"user":"vpn03",
+"pass":"102030"
+}
+],
+"Networks":
+[
+{
+"Name":"CLARO 1 (PLANOS E PROMOÇÕES)",
+   "FLAG": "cl.png",
+"payload":"",
+"sni":"m.web.whatsapp.com",
+"proxy_ip":"[server_host]",
+"proxyport":"",
+"tlsport":"[app_sslport]",
+"honedblack":"ssl"
+},
+{
+"Name":"CLARO 2 (PLANOS E PROMOÇÕES)",
+   "FLAG": "cl.png",
+"payload":"",
+"sni":"web.whatsapp.com",
+"proxy_ip":"[server_host]",
+"proxyport":"",
+"tlsport":"[app_sslport]",
+"honedblack":"ssl"
+},
+{
+"Name":"CLARO 3 (PLANOS PARA PROMOÇÕES)",
+   "FLAG": "cl.png",
+"payload":"",
+"sni":"dns.web.whatsapp.com",
+"proxy_ip":"[server_host]",
+"proxyport":"",
+"tlsport":"[app_sslport]",
+"honedblack":"ssl"
+},
+{
+"Name":"CLARO 4 (PLANOS E PROMOÇÕES)",
+   "FLAG": "cl.png",
+"payload":"",
+"sni":"m.waze.com",
+"proxy_ip":"[server_host]",
+"proxyport":"",
+"tlsport":"[app_sslport]",
+"honedblack":"ssl"
+},
+{
+"Name":"CLARO 5 (PLANOS E PROMOÇÕES)",
+   "FLAG": "cl.png",
+"payload":"",
+"sni":"twitter.com",
+"proxy_ip":"[server_host]",
+"proxypo  kڿ ~\ŵL":"[app_sslpn t]",
+"honedblack":"ssl"
+},
+{
+"Name":"CLARO 6 (ALGUNS DDD'S)",
+   "FLAG": "cl.png",
+"payload":"GET https://www.claro.com.br HTTP/1.0[crlf]Host: https://www.claro.com.br[crlf]Connection: keep-alive[crlf]User-Agent: Upgrade [crlf][crlf]",
+"sni":"",
+"proxy_ip":"[server_host]",
+"proxyport":"80",
+"tlsport":"",
+"honedblack":"proxy"
+},
+{
+"Name":"CLARO 7 (ALGUNS DDD'S)",
+   "FLAG": "cl.png",
+"payload":"GET https://bonuz.claro.com.br HTTP/1.0[crlf]Host: https://bonuz.claro.com.br[crlf]Connection: keep-alive[crlf]User-Agent: Upgrade [crlf][crlf]",
+"sni":"",
+"proxy_ip":"[server_host]",
+"proxyport":"80",
+"tlsport":"",
+"honedblack":"proxy"
+},
+{
+"Name":"CLARO 8 (ALGUNS DDD'S)",
+   "FLAG": "cl.png",
+"payload":"GET https://ecob.claro.com.br HTTP/1.0[crlf]Host: https://ecob.claro.com.br[crlf]Connection: keep-alive[crlf]User-Agent: Upgrade [crlf][crlf]",
+"sni":"",
+"proxy_ip":"[server_host]",
+"proxyport":"80",
+"tlsport":"",
+"honedblack":"proxy"
+},
+{
+"Name":"CLARO 9 (ALGUNS DDD'S)",
+   "FLAG": "cl.png",
+"payload":"GET https://m.claro.com.br HTTP/1.0[crlf]Host: https://m.claro.com.br[crlf]Connection: keep-alive[crlf]User-Agent: Upgrade [crlf][crlf]",
+"sni":"",
+"proxy_ip":"[server_host]",
+"proxyport":"80",
+"tlsport":"",
+"honedblack":"proxy"
+},
+{
+"Name":"CLARO 10 (ALGUNS DDD'S)",
+   "FLAG": "cl.png",
+"payload":"GET https://minhaclaroresidencial.claro.com.br HTTP/1.0[crlf]Host: https://minhaclaroresidencial.claro.com.br[crlf]Connection: keep-alive[crlf]User-Agent: Upgrade [crlf][crlf]",
+"sni":"",
+"proxy_ip":"[server_host]",
+"proxyport":"80",
+"tlsport":"",
+"honedblack":"proxy"
+},
+{
+"Name":"CLARO 11 (ALGUNS DDD'S)",
+   "FLAG": "cl.png",
+"payload":"GET https://brunaclaro.com.br HTTP/1.0[crlf]Host: https://brunaclaro.com.br[crlf]Connection: keep-alive[crlf]User-Agent: Upgrade [crlf][crlf]",
+"sni":"",
+"proxy_ip":"[server_host]",
+"proxyport":"80",
+"tlsport":"",
+"honedblack":"proxy"
+},
+{
+"Name":"CLARO 12 (ALGUNS DDD'S)",
+   "FLAG": "cl.png",
+"payload":"GET https://claro.com.br HTTP/1.0[crlf]Host: https://claro.com.br[crlf]Connection: keep-alive[crlf]User-Agent: Upgrade [crlf][crlf]",
+"sni":"",
+"proxy_ip":"[server_host]",
+"proxyport":"80",
+"tlsport":"",
+"honedblack":"proxy"
+},
+{
+"Name":"OI 1",
+   "FLAG": "oi.png",
+"payload":"GET / HTTP/1.1[crlf]Host: [app_host][crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]",
+"sni":"",
+"proxy_ip":"104.16.53.111",
+"proxyport":"80",
+"tlsport":"",
+"honedblack":"proxy"
+},
+{
+"Name":"OI 2",
+   "FLAG": "oi.png",
+"payload":"GET / HTTP/1.1[crlf]Host: [app_host][crlf]Connection: Upgrade[crlf]Upgrade: Websocket[crlf][crlf]",
+"sni":"",
+"proxy_ip":"104.16.51.111",
+"proxyport":"80",
+"tlsport":"",
+"honedblack":"proxy"
+},
+{
+"Name":"TIM SEM SALDO 1",
+ "FLAG": "ti.png",
+"payload":"HTTP/ [crlf][crlf]|[crlf]",
+"sni":"",
+"proxy_ip":"[server_host]",
+"proxyport":"80",
+"tlsport":"",
+"honedblack":"proxy"
+},
+{
+"Name":"TIM SEM SALDO 2",
+   "FLAG": "ti.png",
+"payload":"PROPPATCH global-4-lvs-colossus-10.opera-mini.net HTTP/1.0[crlf]Host: global-4-lvs-colossus-10.opera-mini.net[crlf]",
+"sni":"",
+"proxy_ip":"[server_host]",
+"proxyport":"80",
+"tlsport":"",
+"honedblack":"proxy"
+},
+{
+"Name":"TIM SEM SALDO 3",
+   "FLAG": "ti.png",
+"payload":"ACL HTTP/1.1[crlf]Host: community-dashbird.buzzfeed.com[crlf]X-Online-Host: [app_host][crlf]Connection:l llbj  Keep-Alive[crlf]User-Agent: [ua][crlf]",
+"sni":"",
+"proxy_ip":"[server_host]",
+"proxyport":"80",
+"tlsport":"",
+"honedblack":"proxy"
+},
+{
+"Name":"TIM SEM SALDO 4",
+   "FLAG": "ti.png",
+"payload":"ACL http://1.1.1.1rotate=buzzfeed.com;mobile.adobe.com;1.0.0.5 HTTP/1.1[crlf]Host: http://1.1.1.1rotate=buzzfeed.com;myspace.com;mobile.google.com;1.0.0.5[crlf]",
+"sni":"",
+"proxy_ip":"1[server_host]",
+"proxyport":"80",
+"tlsport":"",
+"honedblack":"proxy"
+},
+{
+"Name":"TIM SEM SALDO 5",
+ "FLAG": "ti.png",
+"payload":"MERGE indexer10.sjc.northshore.akamai.com HTTP/2.0[crlf]Host: indexer10.sjc.northshore.akamai.com [crlf]Connection: upgrade, Keep-Alive-Status 101[crlf]Upgrade: HTTP/2.0[crlf]User-Agent: Googlebot/2.1 (+http://www.google.com/bot.html)@mateuscmf[crlf]Referer: http://www.google.com[crlf]",
+"sni":"",
+"proxy_ip":"[server_host]",
+"proxyport":"80",
+"tlsport":"",
+"honedblack":"proxy"
+},
+{
+"Name":"TIM SEM SALDO 6",
+   "FLAG": "ti.png",
+"payload":"ACL HTTP/2[crlf]Host: plus.google.com[crlf]",
+"sni":"",
+"proxy_ip":"[server_host]",
+"proxyport":"80",
+"tlsport":"",
+"honedblack":"proxy"
+},
+{
+"Name":"TIM SEM SALDO 7",
+   "FLAG": "ti.png",
+"payload":"PROPFIND m.youtube.com.br HTTP/1.1[crlf]Host: m.youtube.com.br[crlf]",
+"sni":"",
+"proxy_ip":"[server_host]",
+"proxyport":"80",
+"tlsport":"",
+"honedblack":"proxy"
+},
+{
+"Name":"TIM SEM SALDO 8",
+   "FLAG": "ti.png",
+"payload":"ACL HTTP/1.1[lf]Host: google.es[lf]",
+"sni":"",
+"pr   M0  ,2+  FX _host]! 
+"proxyport":"80",
+"tlsport":"",
+"honedblack":"proxy"
+},
+{
+"Name":"TIM SEM SALDO 9",
+   "FLAG": "ti.png",
+"payload":"HTTP/ [crlf][crlf]|[crlf]",
+"sni":"",
+"proxy_ip":"[server_host]",
+"proxyport":"80",
+"tlsport":"",
+"honedblack":"proxy"
+},
+{
+"Name":"TIM 1",
+ "FLAG": "ti.png",
+"payload":"CONNECT / HTTP/1.9[crlf]host: c6bank.com.br[crlf][crlf][split][crlf]OPTIONS- // HTTP/1.9[crlf]host: [app_host][crlf]Expect: 200-continue[crlf]Proxy-Connection: Keep-Alive[crlf]Keep-Alive: timeout=5, max=1000[crlf]Connection: Upgrade[crlf]Upgrade: websocket[crlf]Sec WebSocketExtensions: superspeed[crlf]Last-Modified: Fri, 17 March 2022 04:32:39 GMT[crlf]Server: Qnax[crlf]User-Agent: Mozilla/5.0 (Linux; Android 4.4.2); Nexus 5 Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.117 Mobile Safari/537.36 OPR/20.0.1396.72047[crlf][crlf]",
+"sni":"",
+"proxy_ip":"104.19.242.25",
+"proxyport":"80",
+"tlsport":"",
+"honedblack":"proxy"
+},
+{
+"Name":"TIM 2",
+   "FLAG": "ti.png",
+"payload":"CONNECT / HTTP/1.9[crlf]host: c6bank.com.br[crlf][crlf][split][crlf]OPTIONS- // HTTP/1.9[crlf]host: [app_host][crlf]Expect: 200-continue[crlf]Proxy-Connection: Keep-Alive[crlf]Keep-Alive: timeout=5, max=1000[crlf]Connection: Upgrade[crlf]Upgrade: websocket[crlf]Sec WebSocketExtensions: superspeed[crlf]Last-Modified: Fri, 17 March 2022 04:32:39 GMT[crlf]Server: Qnax[crlf]User-Agent: Mozilla/5.0 (Linux; Android 4.4.2); Nexus 5 Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.117 Mobile Safari/537.36 OPR/20.0.1396.72047[crlf][crlf]",
+"sni":"",
+"proxy_ip":"104.18.27.160",
+"proxyport":"80",
+"tlsport":"",
+"honedblack":"proxy"
+},
+{
+"Name":"TIM 3",
+   "FLAG": "ti.png",
+"payload":"CONNECT / HTTP/1.9[crlf]host: c6bank.com.br[crlf][crlf][split][crlf]OPTIONS- // HTTP/1.9[crlf]host: [app_host][crlf]Expect: 200-continue[crlf]Proxy-Connection: Keep-Alive[crlf]Keep-Alive: timeout=5, max=1000[crlf]Connection: Upgrade[crlf]Upgrade: websocket[crlf]Sec WebSocketExtensions: superspeed[crlf]Last-Modified: Fri, 17 March 2022 04:32:39 GMT[crlf]Server: Qnax[crlf]User-Agent: Mozilla/5.0 (Linux; Android 4.4.2); Nexus 5 Build/KOT49H) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/33.0.1750.117 Mobile Safari/537.36 OPR/20.0.1396.72047[crlf][crlf]",
+"sni":"",
+"proxy_ip":"104.19.239.25",
+"proxyport":"80",
+"tlsport":"",
+"honedblack":"proxy"
+},
+{
+"Name":"TIM 4",
+   "FLAG": "ti.png",
+"payload":"GET / HTTP/1.1[crlf]Host: creatorsupport.deezer.com[crlf]Expect: 100-continue[crlf][crlf][split][crlf][crlf]PUT- // HTTP/1.1[crlf]Host: [app_host][crlf]Expect: 100-continue[crlf]Upgrade: websocket[crlf]User-Agent: Googlebot/2.1 (+http://www.google.com/bot.html)[crlf][crlf]",
+"sni":"",
+"proxy_ip":"creatorsupport.deezer.com",
+"proxyport":"80",
+"tlsport":"",
+"honedblack":"proxy"
+},
+{
+"Name":"TIM 5",
+   "FLAG": "ti.png",
+"payload":"GET / HTTP/1.1[crlf]Host: creatorsupport.deezer.com[crlf]Expect: 100-continue[crlf][crlf][split][crlf][crlf]PUT- // HTTP/1.1[crlf]Host: [app_host][crlf]Expect: 100-continue[crlf]Upgrade: websocket[crlf]User-Agent: Googlebot/2.1 (+http://www.google.com/bot.html)[crlf][crlf]",
+"sni":"",
+"proxy_ip":"104.16.53.111",
+"proxyport":"80",
+"tlsport":"",
+"honedblack":"proxy"
+},
+{
+"Name":"TIM 6",
+   "FLAG": "ti.png",
+"payload":"GET / HTTP/1.1[crlf]Host: www.c6bank.app[crlf]Expect: 100-continue[crlf][crlf][split][crlf][crlf]ACL /?/ HTTP/1.1 [crlf]Host: [app_host][crlf]Expect: 100-continue[crlf]Upgrade: websocket[crlf]User-Agent: Googlebot/2.1 (+http://www.google.com/bot.html) [crlf][crlf]",
+"sni":"",
+"proxy_ip":"104.19.239.25",
+"proxyport":"80",
+"tlsport":"",
+"honedblack":"proxy"
+},
+{
+"Name":"TIM 7",
+   "FLAG": "ti.png",
+"payload":"GET / HTTP/1.1[crlf]Host: api.sandbox.c6bank.com.br[crlf]Expect: 100-continue[crlf][crlf][split][crlf][crlf]PUT- /?/ HTTP/1.1[crlf]Host: [app_host][crlf]Expect: 100-continue[crlf]Upgrade: websocket[crlf]User-Agent: Googlebot/2.1 (+http://www.google.com/bot.html)[crlf][crlf]",
+"sni":"",
+"proxy_ip":"104.19.239.25",
+"proxyport":"80",
+"tlsport":"",
+"honedblack":"proxy"
+},
+{
+"Name":"VIVO 1",
+ "FLAG": "vi.png",
+"payload":"GET / HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: Websocket[crlf]Connection: Upgrade[crlf][crlf]",
+"sni":"",
+"proxy_ip":"104.18.23.26",
+"proxyport":"80",
+"tlsport":"",
+"honedblack":"proxy"
+},
+{
+"Name":"VIVO 2",
+   "FLAG": "vi.png",
+"payload":"GET / HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: Websocket[crlf]Connection: Upgrade[crlf][crlf]",
+"sni":"",
+"proxy_ip":"104.18.22.26",
+"proxyport":"80",
+"tlsport":"",
+"honedblack":"proxy"
+},
+{
+"Name":"VIVO 3",
+   "FLAG": "vi.png",
+"payload":"GET / HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: Websocket[crlf]Connection: Upgrade[crlf][crlf]",
+"sni":"",
+"proxy_ip":"104.16.53.111",
+"proxyport":"80",
+"tlsport":"",
+"honedblack":"proxy"
+},
+{
+"Name":"VIVO 4",
+   "FLAG": "vi.png",
+"payload":"GET / HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: Websocket[crlf]Connection: Upgrade[crlf][crlf]",
+"sni":"",
+"proxy_ip":"104.16.122.175",
+"proxyport":"80",
+"tlsport":"",
+"honedblack":"proxy"
+},
+{
+"Name":"VIVO 5",
+ "FLAG": "vi.png",
+"payload":"GET / HTTP/1.1[lf]Host: carreiras.stoodi.com.br[lf][lf][split][lf]GET- / HTTP/1.1[lf]Host: [app_host][lf]Upgrade: ws[lf]User-Agent: yes[lf][lf]",
+"sni":"",
+"proxy_ip":"104.16.53.111",
+"proxyport":"80",
+"tlsport":"",
+"honedblack":"proxy"
+},
+{
+"Name":"VIVO 6",
+   "FLAG": "vi.png",
+"payload":"GET / HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: Websocket[crlf]Connection: Upgrade[crlf][crlf]",
+"sni":"",
+"proxy_ip":"104.18.23.26",
+"proxyport":"80",
+"tlsport":"",
+"honedblack":"proxy"
+},
+{
+"Name":"VIVO 7",
+   "FLAG": "vi.png",
+"payload":"MERGE / HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: Websocket[crlf][crlf]",
+"sni":"",
+"proxy_ip":"104.18.22.26",
+"proxyport":"80",
+"tlsport":"",
+"honedblack":"proxy"
+},
+{
+"Name":"VIVO 8",
+   "FLAG": "vi.png",
+"payload":"GET /  HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
+"sni":"",
+"proxy_ip":"104.16.53.111",
+"proxyport":"80",
+"tlsport":"",
+"honedblack":"proxy"
+},
+{
+"Name":"VIVO 9",
+   "FLAG": "vi.png",
+"payload":"GET /  HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
+"sni":"",
+"proxy_ip":"104.16.53.111",
+"proxyport":"80",
+"tlsport":"",
+"honedblack":"proxy"
+},
+{
+"Name":"VIVO EASY 10",
+   "FLAG": "vi.png",
+"payload":"GET /  HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
+"sni":"",
+"proxy_ip":"104.18.7.41",
+"proxyport":"80",
+"tlsport":"",
+"honedblack":"proxy"
+},
+{
+"Name":"VIVO EASY 11",
+   "FLAG": "vi.png",
+"payload":"GET /  HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
+"sni":"",
+"proxy_ip":"104.18.6.41",
+"proxyport":"80",
+"tlsport":"",
+"honedblack":"proxy"
+},
+{
+"Name":"WI-FI 1",
+   "FLAG": "wi.png",
+"payload":"CONNECT [app_host] [protocol][crlf][crlf]",
+"sni":"",
+"proxy_ip":"[server_host]",
+"proxyport":"80",
+"tlsport":"",
+"honedblack":"proxy"
+},
+{
+"Name":"WI-FI 2",
+   "FLAG": "wi.png",
+"payload":"CONNECT [app_host] [protocol][crlf][crlf]",
+"sni":"",
+"proxy_ip":"[server_host]",
+"proxyport":"80",
+"tlsport":"",
+"honedblack":"proxy"
+}
+]
+}
