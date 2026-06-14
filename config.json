@@ -2,7 +2,6 @@
  "ConfigVersion": 1,
 "ConfigMinAppVersionCode": 154,
 "ConfigPackage": "br.com.nexustunnel",
-"ConfigSignature": "",
   "Ads": {
     "Appodeal": true,
     "Admob": true,
@@ -13,7 +12,7 @@
     "Interstitial": "Appodeal;Admob",
     "Rewarded": "Appodeal;Admob"
   },
-  "Version": "1.0.3",
+  "Version": "1.0.5",
   "ReleaseNotes": "CORREÇÕES DE ESTABILIDADE\nMELHORIAS DE SEGURANÇA\nMELHORIAS DE COMPATIBILIDADE COM ANDROID 16\nAJUSTES VISUAIS E CORREÇÕES GERAIS",
   "UrlUpdate": "https://raw.githubusercontent.com/almdevz/config/main/config.json",
   "Sms": "https://bitbin.it/yo7JiuOM/raw/",
