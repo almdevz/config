@@ -2,7 +2,6 @@
   "ConfigVersion": 1,
   "ConfigMinAppVersionCode": 154,
   "ConfigPackage": "br.com.nexustunnel",
-  "ConfigSignature": "Rt9GCdPY9u9ZZ1dKGjmp\/Bdli3XZC0yw6MJzwU732SkNtKt8qZSudxyjxnxjePz1+lbfTa6Q5TocdseNAD20oBs4TNJliPBNT4uY5swQ\/LrdGRM9lDLN55Iq3Fp\/3BiAkhTbyofcT5+cpzzhi7AuC1\/mebx0NQNHs6wytoQm2ja+Y6lt8WTT4mlsoX5TKdVWoxIEYBgueuVJwOILmY\/EYLf\/GCb0d00J9afaWSzJ5VZtWl4JUaIgBDwzWiD9IF\/Dp4qWciR8Elt61sGG6dqEB0M\/rVRgc4\/ODgUxXwEcNB8v\/pHdGrahnEskIYpmycwo\/H3VYwTxs1N55zIdQlp50Q==",
   "Ads": {
     "Appodeal": true,
     "Admob": true,
@@ -1097,5 +1096,6 @@
     "BlockInvalidPackage": true,
     "BlockInvalidJson": true,
     "BlockInvalidPlayIntegrity": true
-  }
+  },
+  "ConfigSignature": "Rt9GCdPY9u9ZZ1dKGjmp\/Bdli3XZC0yw6MJzwU732SkNtKt8qZSudxyjxnxjePz1+lbfTa6Q5TocdseNAD20oBs4TNJliPBNT4uY5swQ\/LrdGRM9lDLN55Iq3Fp\/3BiAkhTbyofcT5+cpzzhi7AuC1\/mebx0NQNHs6wytoQm2ja+Y6lt8WTT4mlsoX5TKdVWoxIEYBgueuVJwOILmY\/EYLf\/GCb0d00J9afaWSzJ5VZtWl4JUaIgBDwzWiD9IF\/Dp4qWciR8Elt61sGG6dqEB0M\/rVRgc4\/ODgUxXwEcNB8v\/pHdGrahnEskIYpmycwo\/H3VYwTxs1N55zIdQlp50Q=="
 }
